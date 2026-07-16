@@ -1,0 +1,12 @@
+/* Minimal styles so the app looks ok while you iterate */
+:root{
+  --bg: #fff;
+  --fg: #111827;
+}
+
+html,body,#root{height:100%;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--fg);
+}
